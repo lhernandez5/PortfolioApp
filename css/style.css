@@ -85,6 +85,8 @@ p {
 }
 .img-thumbnail {
   z-index: 0;
+  height:400px; 
+  width: 640px;
 }
 label {
   color: #777777;
