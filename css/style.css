@@ -130,6 +130,21 @@ label {
 .card-img-overlay{
   display: inline-block;
 }
+.media{
+  width: 200px;
+  height: 190px;
+  margin: 5%;
+  display: inline-block;
+}
+.card-text.media{
+  height: 50px !important;
+  border-bottom: none !important; 
+  margin-top: 20%;
+}
+.card-img-top.rounded.pull-left{
+  float: left;
+  margin:0 40px 0 20px;
+}
 
 
  
