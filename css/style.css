@@ -131,9 +131,9 @@ label {
   display: inline-block;
 }
 .media{
-  width: 200px;
-  height: 190px;
-  margin: 5%;
+  width: 180px;
+  height: 180px;
+  margin: 3%;
   display: inline-block;
 }
 .card-text.media{
