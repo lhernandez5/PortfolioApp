@@ -1,7 +1,7 @@
 body {
-  background: url(../images/greyfloral.jpeg);
+  background: url(../images/sativa.png);
 }
-.col-md-9 {
+.col-md-9{
   font-size: 18px;
   line-height: 35px;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -27,7 +27,7 @@ body {
 #navbarSupportedContent {
   margin-left: 30%;
 }
-.col-md-10.h2 {
+.col-md-9.h2 {
   margin-top: 20px;
   font-family: "Georgia", Times, Times New Roman, serif;
   color: #4aaaa5;
@@ -54,13 +54,13 @@ p {
   font-size: 18px;
   
 }
-.col-md-10{
+/* .col-md-1{
   background-color: #ffffff;
   height: 50%;
   width: 100%;
   color: #777777;
   font-size: 18px;
-}
+} */
 .navbar.fixed-bottom {
   background-color: #777777 !important;
   color: #cccccc;
@@ -74,7 +74,7 @@ p {
 .container {
   background-color: #ffffff;
 }
-.col-md-8.bio {
+.col-md-9.bio {
   padding: 0;
 }
 .col-md-2 {
@@ -120,8 +120,6 @@ label {
   margin-top: 40%;
   font-size: 20px;
   border-bottom: #777777 solid 5px;
-  /* border-top: #777777 solid 5px; */
-
 }
 .col-md-5 {
   margin-bottom: 40px;
@@ -144,6 +142,7 @@ label {
 .card-img-top.rounded.pull-left{
   float: left;
   margin:0 40px 0 20px;
+  border: #777777 solid 3px;
 }
 
 
