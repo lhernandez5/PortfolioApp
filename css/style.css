@@ -54,13 +54,6 @@ p {
   font-size: 18px;
   
 }
-/* .col-md-1{
-  background-color: #ffffff;
-  height: 50%;
-  width: 100%;
-  color: #777777;
-  font-size: 18px;
-} */
 .navbar.fixed-bottom {
   background-color: #777777 !important;
   color: #cccccc;
@@ -143,6 +136,9 @@ label {
   float: left;
   margin:0 40px 0 20px;
   border: #777777 solid 3px;
+}
+.container.projects{
+  margin-bottom: 20%;
 }
 
 
