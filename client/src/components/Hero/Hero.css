@@ -1,0 +1,65 @@
+.title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 50px;
+  color: black !important;
+  margin: 0% 5% 10% 5%;
+  text-align: center;
+  padding-top: 2%;
+}
+.hero.is-primary.is-medium {
+  background: url("./luzhernandez.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border-bottom: 2px solid black;
+  box-shadow: 5px 5px gray;
+  max-height: 800px;
+}
+.subtitle {
+  color: black !important;
+  margin: 5% 10% 5% 10%;
+  padding-top: 2%;
+  text-align: center;
+}
+.hero-body {
+  padding-bottom: 0% !important;
+}
+.hero.container {
+  background-color: rgb(233, 214, 107);
+  margin-bottom: 10%;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  .hero.is-primary.is-medium {
+    background: url("./luzhernandez.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero.container {
+    margin-left: 4% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero.is-primary.is-medium {
+    background: url("./luzhernandez.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero.container {
+    background-color: rgb(233, 214, 107);
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .hero.is-primary.is-medium {
+    background: url("./luzhernandez.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero.container {
+    background-color: rgb(233, 214, 107);
+  }
+}

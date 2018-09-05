@@ -1,0 +1,12 @@
+div.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 10%;
+}
+.card-title {
+  color: black;
+}
