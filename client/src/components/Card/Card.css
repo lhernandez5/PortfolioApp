@@ -73,6 +73,15 @@
 .vertical.flip-container:hover .front {
   transform: rotateX(180deg);
 }
+/* @media screen and (max-width: 375px) {
+  .card {
+    background-color: rgb(223, 204, 41);
+    box-shadow: 5px 5px gray;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0% 2% 0% 20%;
+  }
+} */
 @media screen and (max-width: 640px) {
   .card {
     background-color: rgb(223, 204, 41);
@@ -91,7 +100,7 @@
     border: 2px solid black;
     border-radius: 10px;
   }
-  .cardAndFlipper{
+  .cardAndFlipper {
     margin-left: 20%;
   }
 }
