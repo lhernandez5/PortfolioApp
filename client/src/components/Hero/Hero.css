@@ -30,6 +30,12 @@
   border-radius: 30px;
 }
 
+@media (min-width: 414px) {
+  .hero.is-primary.is-medium {
+    padding-right: 10%;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .hero.is-primary.is-medium {
     background: url("./luzhernandez.jpg");
