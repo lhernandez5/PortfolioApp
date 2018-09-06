@@ -49,23 +49,14 @@
 
 @media screen and (max-width: 768px) {
   .hero.is-primary.is-medium {
-    background: url("./luzhernandez.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .hero.container {
-    background-color: rgb(233, 214, 107);
-    margin-left: 0%;
+    padding-right: 3%;
   }
 }
 
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 1024px) {
   .hero.is-primary.is-medium {
-    background: url("./luzhernandez.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    padding-right: 3%;
   }
-  .hero.container {
-    background-color: rgb(233, 214, 107);
-  }
+
 }
