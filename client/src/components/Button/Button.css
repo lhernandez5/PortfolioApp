@@ -4,3 +4,10 @@
   width: auto;
   max-width:50%
 }
+@media screen and (max-width: 375px) {
+  .iconButton {
+    margin: 20% 0% 20% 30%;
+    height: 75px;
+    max-width:100%
+  }
+}
