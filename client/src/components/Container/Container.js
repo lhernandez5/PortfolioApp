@@ -20,7 +20,7 @@ class Container extends Component {
             {/* <Col size="12">
               <Picture />
               </Col> */}
-              <Col size="12">
+            <Col size="12">
               <Intro />
             </Col>
           </Row>
@@ -179,8 +179,8 @@ class Container extends Component {
         </Wrapper>
         <Wrapper>
           <Row>
+            <Header>Github? Resume? LinkedIn?</Header>
             <Col size="3">
-              {/* <Header>The code?</Header> */}
               <Button
                 link={"https://github.com/lhernandez5"}
                 image={
@@ -190,7 +190,6 @@ class Container extends Component {
               />
             </Col>
             <Col size="3">
-              {/* <Header>Résumé</Header> */}
               <Button
                 link={
                   "https://docs.google.com/document/d/1dd08t53gZAL9mqqsdAkjx5lda_oXuCx9gHzthlejT4E/edit"
@@ -202,7 +201,6 @@ class Container extends Component {
               />
             </Col>
             <Col size="3">
-              {/* <Header>Social</Header> */}
               <Button
                 link={"https://www.linkedin.com/in/--luz---hernandez/"}
                 image={
