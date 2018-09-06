@@ -178,8 +178,8 @@ class Container extends Component {
           </Row>
         </Wrapper>
         <Wrapper>
+          <Header>Github? Resume? LinkedIn?</Header>
           <Row>
-            <Header>Github? Resume? LinkedIn?</Header>
             <Col size="3">
               <Button
                 link={"https://github.com/lhernandez5"}
