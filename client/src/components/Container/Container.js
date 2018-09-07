@@ -129,7 +129,6 @@ class Container extends Component {
                   "This your basic hangman game. Choose a letter to guess the word."
                 }
                 aTag={"https://lhernandez5.github.io/Word_Guess_Game/"}
-                goTag={"https://lhernandez5.github.io/Word_Guess_Game/"}
               />
             </Col>
             <Col size="4">
@@ -143,7 +142,6 @@ class Container extends Component {
                   "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
                 }
                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
-                goTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
             </Col>
           </Row>

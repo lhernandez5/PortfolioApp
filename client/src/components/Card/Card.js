@@ -15,7 +15,8 @@ const Card = props => (
             <Icon src={props.src} />
             <center>
               <a href={props.goTag} target="_blank">
-                <img src={process.env.PUBLIC_URL + "/images/go.png"} alt="go"/>
+                {/* <img src={process.env.PUBLIC_URL + "/images/go.png"} alt="go"/> */}
+                Turn the card!
               </a>
             </center>
           </div>
