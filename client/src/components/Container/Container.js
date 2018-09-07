@@ -36,7 +36,6 @@ class Container extends Component {
                   "This application allows to organize your spending and bills."
                 }
                 aTag={"https://stormy-everglades-57851.herokuapp.com/"}
-                goTag={"https://stormy-everglades-57851.herokuapp.com/"}
               />
             </Col>
             <Col size="4">
