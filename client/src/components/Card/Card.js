@@ -18,7 +18,7 @@ const Card = props => (
           </div>
         </div>
 
-        <div class="back">
+        <div className="back">
           <div className="card">
             <div className="card-body">
               <h5 className="card-title">{props.title}</h5>
