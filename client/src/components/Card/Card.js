@@ -14,11 +14,7 @@ const Card = props => (
             <h5 className="card-title">{props.title}</h5>
             <Icon src={props.src} />
             <center>
-              {/* <a  */}
-              {/* // href={props.goTag}  */}
-              {/* target="_blank"> */}
                 <img src={process.env.PUBLIC_URL + "/images/arrow.svg"} alt="go"/>
-              {/* </a> */}
             </center>
           </div>
         </div>
