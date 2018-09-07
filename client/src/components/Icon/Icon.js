@@ -9,7 +9,7 @@ const Icon = props => (
     style={{
       backgroundImage: `url(${props.src})`
     }}
-    ontouchstart="this.classList.toggle('hover');"
+    // ontouchstart="this.classList.toggle('hover')"
   >
     <h5 className="card-title">{props.title}</h5>
   </div>

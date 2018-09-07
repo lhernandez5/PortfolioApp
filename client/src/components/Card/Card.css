@@ -12,8 +12,11 @@
   color: rgb(8, 8, 5);
 }
 
+
+/* Animation of Card flip  */
 .flip-container {
   perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 /* flip the pane when hovered */
