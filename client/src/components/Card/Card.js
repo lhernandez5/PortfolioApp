@@ -8,22 +8,21 @@ const Card = props => (
     // ontouchstart="this.classList.toggle('hover');"
   >
     <div className="flipper">
-      <div className="front">             
-           <a href={props.goTag} target="_blank">
-
-
+      <div className="front">
         <div className="card">
           <div className="card-body">
             <h5 className="card-title">{props.title}</h5>
             <Icon src={props.src} />
             <center>
+              <a 
+              // href={props.goTag} 
+              target="_blank">
                 {/* <img src={process.env.PUBLIC_URL + "/images/go.png"} alt="go"/> */}
-                {/* Turn the card! */}
-             
+                flip card
+              </a>
             </center>
           </div>
-        </div> 
-        </a>
+        </div>
       </div>
 
       <div className="back">
