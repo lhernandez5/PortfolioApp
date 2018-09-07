@@ -14,6 +14,7 @@
 
 
 /* Animation of Card flip  */
+
 .flip-container {
   perspective: 1000px;
   transform-style: preserve-3d;

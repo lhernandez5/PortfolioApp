@@ -11,7 +11,7 @@ const Icon = props => (
     }}
     // ontouchstart="this.classList.toggle('hover')"
   >
-    <h5 className="card-title">{props.title}</h5>
+    {/* <h5 className="card-title">{props.title}</h5> */}
   </div>
 );
 
