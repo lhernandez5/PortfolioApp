@@ -30,12 +30,6 @@
   border-radius: 30px;
 }
 
-@media (min-width: 414px) {
-  .hero.is-primary.is-medium {
-    padding-right: 10%;
-  }
-}
-
 @media screen and (max-width: 640px) {
   .hero.is-primary.is-medium {
     background: url("./luzhernandez.jpg");
@@ -49,14 +43,23 @@
 
 @media screen and (max-width: 768px) {
   .hero.is-primary.is-medium {
-    padding-right: 3%;
+    background: url("./luzhernandez.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .hero.container {
+    background-color: rgb(233, 214, 107);
+    margin-left: 0%;
   }
 }
 
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 980px) {
   .hero.is-primary.is-medium {
-    padding-right: 3%;
+    background: url("./luzhernandez.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
-
+  .hero.container {
+    background-color: rgb(233, 214, 107);
+  }
 }
