@@ -3,7 +3,7 @@ import "./Card.css";
 import Icon from "../Icon/Icon.js";
 
 const Card = props => (
-  <div className="cardAndFlipper">
+  // <div className="cardAndFlipper">
     <div
       className="flip-container"
       ontouchstart="this.classList.toggle('hover');"
@@ -31,7 +31,7 @@ const Card = props => (
         </div>
       </div>
     </div>
-  </div>
+  // </div> 
 );
 
 export default Card;

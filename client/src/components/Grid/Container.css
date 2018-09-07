@@ -11,8 +11,8 @@
 @media screen and (max-width: 375px) {
   .col-4 {
     flex: 0% 0% 0% 0% !important;
-    /* max-width: 51% !important; */
-    /* padding-right: 30%; */
+    max-width: 51% !important;
+    padding-right: 30%;
   }
 }
 
