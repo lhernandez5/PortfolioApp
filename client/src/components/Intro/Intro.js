@@ -1,8 +1,17 @@
 import React from "react";
 import "./Intro.css";
 
+
 const Intro = () => (
-  <div>
+  <div className="introDiv">
+  <img
+    src={
+        process.env.PUBLIC_URL + "/images/luzhernandez.png" ||
+        "https://placehold.it/300x300"
+      }
+    className="picture"
+    alt="Luz Hernandez"
+  />
     <p className="intro">
       I'm a Full Stack Developer with a Biology undergraduate degree and a
       coding boot camp certificate. I decided to make a transition in my career

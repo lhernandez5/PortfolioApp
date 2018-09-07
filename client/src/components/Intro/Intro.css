@@ -6,3 +6,64 @@
   line-height: 2;
 }
 
+.picture {
+  margin: 0% 5% 5% 5%;
+  height: 300px;
+  max-width: 20%;
+  border-radius: 30px;
+  border: 3px solid black;
+  box-shadow: 5px 5px gray;
+  display: inline-block;
+  float: left;
+}
+
+@media (min-width: 320px) {
+  .picture {
+    height: 350px !important;
+    max-width: 70%;
+    padding: 2%;
+    margin: 5% 15% 5% 15% !important;
+  }
+}
+
+@media (min-width: 360px) {
+  .picture {
+    padding: 2%;
+    margin: 13%;
+  }
+}
+
+@media (min-width: 375px) {
+  .picture {
+    height: 350px;
+    max-width: 70%;
+    padding: 2%;
+    margin: 13%;
+  }
+}
+
+@media (min-width: 414px) {
+  .picture {
+    height: 390px;
+    max-width: 70%;
+    padding: 2%;
+    margin: 13%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .picture {
+    height: 600px;
+    max-width: 70%;
+    margin: 13%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .picture {
+    padding: 2%;
+    margin: 2% 5% 2% 5% !important;
+  }
+}
+
+

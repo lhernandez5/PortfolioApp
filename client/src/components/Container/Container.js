@@ -6,7 +6,6 @@ import { Col, Row, Wrapper } from "../../components/Grid";
 import Footer from "../Footer/index.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
-// import Picture from "../Picture/Picture.js";
 import "./Container.css";
 
 class Container extends Component {
@@ -17,9 +16,6 @@ class Container extends Component {
         <Wrapper>
           <Header>About Me</Header>
           <Row>
-            {/* <Col size="12">
-              <Picture />
-              </Col> */}
             <Col size="12">
               <Intro />
             </Col>

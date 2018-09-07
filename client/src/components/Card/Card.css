@@ -73,43 +73,18 @@
 .vertical.flip-container:hover .front {
   transform: rotateX(180deg);
 }
-/* @media screen and (max-width: 375px) {
-  .card {
-    background-color: rgb(223, 204, 41);
-    box-shadow: 5px 5px gray;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 0% 2% 0% 20%;
-  }
-} */
+
 @media screen and (max-width: 640px) {
   .card {
-    background-color: rgb(223, 204, 41);
     margin: 20% 0% 40% 0%;
-    box-shadow: 5px 5px gray;
-    border: 2px solid black;
-    border-radius: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .card {
-    background-color: rgb(223, 204, 41);
-    /* margin: 0% 2% 0% 2%; */
-    box-shadow: 5px 5px gray;
-    border: 2px solid black;
-    border-radius: 10px;
+    margin: 0% 10% 2% 2%;
   }
   .cardAndFlipper {
     margin-left: 20%;
-  }
-}
-
-@media screen and (max-width: 980px) {
-  .card {
-    background-color: rgb(223, 204, 41);
-    box-shadow: 5px 5px gray;
-    border: 2px solid black;
-    border-radius: 10px;
   }
 }
