@@ -15,7 +15,7 @@ const Card = props => (
             <Icon src={props.src} />
             <center>
               <a 
-              // href={props.goTag} 
+              href={props.goTag} 
               target="_blank">
                 {/* <img src={process.env.PUBLIC_URL + "/images/go.png"} alt="go"/> */}
                 flip card
