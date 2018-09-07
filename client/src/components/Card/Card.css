@@ -74,7 +74,7 @@
   transform: rotateX(180deg);
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   .card {
     margin: 20% 0% 40% 0%;
   }
@@ -87,4 +87,4 @@
   .cardAndFlipper {
     margin-left: 20%;
   }
-}
+} */
