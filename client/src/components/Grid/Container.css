@@ -8,22 +8,22 @@
   }
 }
 
-/* @media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) {
   .col-4 {
     flex: 0% 0% 0% 0% !important;
     max-width: 51% !important;
     padding-right: 30%;
   }
-} */
-/* 
+}
+
 @media screen and (max-width: 414px) {
   .col-4 {
     flex: 0% 0% 0% 0% !important;
     max-width: 52% !important;
   }
-} */
+}
 
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   .col-4 {
     flex: 0% 0% 0% 0% !important;
     max-width: 100%;
@@ -40,5 +40,5 @@
   .col-4 {
     max-width: 100%;
   }
-} */
+}
 
