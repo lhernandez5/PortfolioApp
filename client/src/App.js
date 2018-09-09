@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "./components/Container/Container.js";
+import Container from "./components/Page/Page.js";
 
 const App = () => <Container />;
 

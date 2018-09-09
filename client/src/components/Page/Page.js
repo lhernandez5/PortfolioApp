@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import Intro from "../Intro/Intro.js";
 import Hero from "../Hero/Hero.js";
 import Card from "../Card/Card.js";
-import { Col, Row, Wrapper } from "../../components/Grid";
+import { Col, Row, Wrapper } from "../Grid/index.js";
 import Footer from "../Footer/index.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
 // import Icon from "../Icon/Icon.js";
-import "./Container.css";
+import "./Page.css";
 
 class Container extends Component {
   render() {
