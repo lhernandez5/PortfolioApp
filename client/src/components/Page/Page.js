@@ -177,31 +177,31 @@ class Container extends Component {
         <Wrapper>
           <Header>Github? Resume? LinkedIn?</Header>
           <Row>
-            <Col size="3">
+            <Col size="4">
               <Button
                 link={"https://github.com/lhernandez5"}
                 image={
-                  process.env.PUBLIC_URL + "/images/github.png" ||
+                  process.env.PUBLIC_URL + "/images/github.svg" ||
                   "https://placehold.it/300x300"
                 }
               />
             </Col>
-            <Col size="3">
+            <Col size="4">
               <Button
                 link={
                   "https://docs.google.com/document/d/1dd08t53gZAL9mqqsdAkjx5lda_oXuCx9gHzthlejT4E/edit"
                 }
                 image={
-                  process.env.PUBLIC_URL + "/images/resume.png" ||
+                  process.env.PUBLIC_URL + "/images/resume2.svg" ||
                   "https://placehold.it/300x300"
                 }
               />
             </Col>
-            <Col size="3">
+            <Col size="4">
               <Button
                 link={"https://www.linkedin.com/in/--luz---hernandez/"}
                 image={
-                  process.env.PUBLIC_URL + "/images/linkedin.png" ||
+                  process.env.PUBLIC_URL + "/images/linkedin.svg" ||
                   "https://placehold.it/300x300"
                 }
               />
