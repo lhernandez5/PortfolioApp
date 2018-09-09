@@ -1,8 +1,8 @@
 import React from "react";
-import "./Hero.css";
+import "./TopHero.css";
 
 
-const Hero = () => (
+const TopHero = () => (
   <section className="hero is-primary is-medium">
     <div className="hero-body">
       <div className="hero container">
@@ -10,12 +10,12 @@ const Hero = () => (
         <h1 className="title"> I'm Luz,</h1>
         <h1 className="title">a full stack developer.</h1>
         <h2 className="subtitle">
-          I'm have a passion for creating products that are practical, pleasing
-          to the eye, and that make a difference.
+          I'm have a passion for creating products that are practical and pleasing
+          to the eye.
         </h2>
       </div>
     </div>
   </section>
 );
 
-export default Hero;
+export default TopHero;

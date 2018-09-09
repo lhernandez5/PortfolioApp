@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import Intro from "../Intro/Intro.js";
-import Hero from "../Hero/Hero.js";
+import TopHero from "../TopHero/TopHero.js";
 import Card from "../Card/Card.js";
 import { Col, Row, Wrapper } from "../Grid/index.js";
 import Footer from "../Footer/index.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
-// import Icon from "../Icon/Icon.js";
+// import BodyHeader from "../BodyHero/BodyHero.js";
 import "./Page.css";
 
 class Container extends Component {
   render() {
     return (
       <div>
-        <Hero />
+        <TopHero />
+        {/* <BodyHeader header={"About Me"} /> */}
         <Wrapper>
           <Header>About Me</Header>
           <Row>
@@ -22,6 +23,7 @@ class Container extends Component {
             </Col>
           </Row>
         </Wrapper>
+        {/* <BodyHeader header={"My Works"} /> */}
         <Wrapper>
           <Header>My Works</Header>
           <Row>
@@ -174,6 +176,7 @@ class Container extends Component {
             </Col>
           </Row>
         </Wrapper>
+        {/* <BodyHeader header={"Links"} /> */}
         <Wrapper>
           <Header>Github? Resume? LinkedIn?</Header>
           <Row>
