@@ -160,10 +160,8 @@ class Container extends Component {
                 }
                 aTag={"https://lhernandez5.github.io/Train-Scheduler/"}
               />
-            </Col>
-            
-            
-            <Col size="4">
+            </Col>  
+            {/* <Col size="4">
               <Card
                 title="Hangman"
                 src={
@@ -175,7 +173,7 @@ class Container extends Component {
                 }
                 aTag={"https://lhernandez5.github.io/Word_Guess_Game/"}
               />
-            </Col>
+            </Col> */}
           </Row>
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
