@@ -122,19 +122,6 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                title="Path 2 Musik"
-                src={
-                  process.env.PUBLIC_URL + "/images/path2musik.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "This application allows the user to check the events of a favorite artist based on location."
-                }
-                aTag={"https://dogdays1.github.io/PathToMusic/"}
-              />
-            </Col>
-            <Col size="4">
-              <Card
                 title="Crystals Collector"
                 src={
                   process.env.PUBLIC_URL + "/images/crystals.png" ||
@@ -146,8 +133,7 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
             </Col>
-          </Row>
-          <Row>
+           
             <Col size="4">
               <Card
                 title="Train Scheduler"
@@ -160,7 +146,22 @@ class Container extends Component {
                 }
                 aTag={"https://lhernandez5.github.io/Train-Scheduler/"}
               />
-            </Col>  
+            </Col>
+          </Row>
+          {/* <Row> */}
+           {/* <Col size="4">
+             <Card
+                title="Path 2 Musik"
+                src={
+                  process.env.PUBLIC_URL + "/images/path2musik.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "This application allows the user to check the events of a favorite artist based on location."
+                }
+                aTag={"https://dogdays1.github.io/PathToMusic/"}
+              />
+            </Col> */}
             {/* <Col size="4">
               <Card
                 title="Hangman"
@@ -174,7 +175,7 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/Word_Guess_Game/"}
               />
             </Col> */}
-          </Row>
+          {/* </Row> */}
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
         <Wrapper>
