@@ -133,22 +133,9 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
             </Col>
-//            <Col size="4">
-//              <Card
-//                title="Train Scheduler"
-//                src={
-//                  process.env.PUBLIC_URL + "/images/train.png" ||
-//                  "https://placehold.it/300x300"
-//                }
-//                summary={
-//                  "You add a train of your choosing into the train scheduler."
-//                }
-//                aTag={"https://lhernandez5.github.io/Train-Scheduler/"}
-//              />
-//            </Col>
           </Row>
         </Wrapper>
-        {/* <BodyHeader header={"Links"} /> */}
+        {/* <BodyHeader header={"Links"} />
         <Wrapper>
           <Header>Github? Resume? LinkedIn?</Header>
           <Row>
