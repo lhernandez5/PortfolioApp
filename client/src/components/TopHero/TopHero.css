@@ -28,6 +28,8 @@
   background-color: rgb(233, 214, 107);
   margin-bottom: 10%;
   border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 640px) {
