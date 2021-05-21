@@ -28,11 +28,8 @@ const Intro = () => (
       .
     </p>
     <br />
-//    <p className="intro">
-//      My goal is to get a position as a developer that continues to learn and
-//      implement new technologies. Currently I'm working on improving my applications, implementing the
-//      React.js library in all of my applications, and making then all mobile responsive.
-//    </p>
+    <p className="intro">
+    </p>
   </div>
 );
 
