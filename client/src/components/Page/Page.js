@@ -133,49 +133,20 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
             </Col>
-           
-            <Col size="4">
-              <Card
-                title="Train Scheduler"
-                src={
-                  process.env.PUBLIC_URL + "/images/train.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "You add a train of your choosing into the train scheduler."
-                }
-                aTag={"https://lhernandez5.github.io/Train-Scheduler/"}
-              />
-            </Col>
+//            <Col size="4">
+//              <Card
+//                title="Train Scheduler"
+//                src={
+//                  process.env.PUBLIC_URL + "/images/train.png" ||
+//                  "https://placehold.it/300x300"
+//                }
+//                summary={
+//                  "You add a train of your choosing into the train scheduler."
+//                }
+//                aTag={"https://lhernandez5.github.io/Train-Scheduler/"}
+//              />
+//            </Col>
           </Row>
-          {/* <Row> */}
-           {/* <Col size="4">
-             <Card
-                title="Path 2 Musik"
-                src={
-                  process.env.PUBLIC_URL + "/images/path2musik.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "This application allows the user to check the events of a favorite artist based on location."
-                }
-                aTag={"https://dogdays1.github.io/PathToMusic/"}
-              />
-            </Col> */}
-            {/* <Col size="4">
-              <Card
-                title="Hangman"
-                src={
-                  process.env.PUBLIC_URL + "/images/hangman.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "This your basic hangman game. Choose a letter to guess the word."
-                }
-                aTag={"https://lhernandez5.github.io/Word_Guess_Game/"}
-              />
-            </Col> */}
-          {/* </Row> */}
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
         <Wrapper>
