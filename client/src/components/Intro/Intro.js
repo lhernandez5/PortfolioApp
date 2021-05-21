@@ -13,27 +13,26 @@ const Intro = () => (
     alt="Luz Hernandez"
   />
     <p className="intro">
-      I'm a Full Stack Developer with a Biology undergraduate degree and a
-      coding boot camp certificate. I decided to make a transition in my career
-      because love coding. I enjoy using the power of code to create products,
-      to solve problems, and improve upon existing systems. 
+      I'm a Software Developer at TIAA.
+      I currently work at TIAA as a developer on the Business Rule Management System Development team that is responsible for the decision logic layer of web and mobile apps.
+      I contributed to the development and deployment efforts to migrate 30 apps from a legacy Business Rule Management System platform to using Red Hat’s open source Decision Manager Platform.
+      In addition, for this initiative I lead scrum, created stories in Jira, contributed to the development, and collaborated on solutions with QA and product teams.
       </p>
       <br />
       <p className="intro">
-      I have experience
+      The tools I work with includes
       with{" "}
       <strong>
-        HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express, Node.js, MySQL,
-        MongoDB React.js, the Command Line, Visual Studio, and Git
+        Java, Spring Boot, Red Hat Decision Manager, Gradle, Prometheus, Artifactory, Jenkins, Electric Flow, the Command Line, Visual Studio, and Git.
       </strong>
       .
     </p>
     <br />
-    <p className="intro">
-      My goal is to get a position as a developer that continues to learn and
-      implement new technologies. Currently I'm working on improving my applications, implementing the
-      React.js library in all of my applications, and making then all mobile responsive.
-    </p>
+//    <p className="intro">
+//      My goal is to get a position as a developer that continues to learn and
+//      implement new technologies. Currently I'm working on improving my applications, implementing the
+//      React.js library in all of my applications, and making then all mobile responsive.
+//    </p>
   </div>
 );
 
