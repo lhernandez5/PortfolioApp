@@ -29,6 +29,7 @@ const Intro = () => (
     </p>
     <br />
     <p className="intro">
+        Below are examples of projects I worked on during and after the coding boot camp at the University of North Carolina at Charlotte.
     </p>
   </div>
 );
