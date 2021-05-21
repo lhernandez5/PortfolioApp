@@ -133,9 +133,10 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
             </Col>
+
           </Row>
         </Wrapper>
-        {/* <BodyHeader header={"Links"} />
+        {/* <BodyHeader header={"Links"} /> */}
         <Wrapper>
           <Header>Github? Resume? LinkedIn?</Header>
           <Row>
