@@ -1,5 +1,5 @@
 # Portfolio
-## (https://obscure-everglades-64350.herokuapp.com/)  https://obscure-everglades-64350.herokuapp.com/
+##  https://obscure-everglades-64350.herokuapp.com/
 <br>
 <br>
 This is my portfolio and it contains an about me section, my latest projects and information on how to get in contact with me. 
