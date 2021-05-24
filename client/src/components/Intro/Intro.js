@@ -24,11 +24,12 @@ const Intro = () => (
       It has not been a straight path but, with flexibility and perseverance I now have 2 years of experience as a software developer.
       I have had the opportunity to work with both front and back end technologies in various positions ranging from internships to my present position at TIAA.
     </p>
-      <p className="intro">
+    <br />
+    <p className="intro">
       The tools I work with includes
       with{" "}
       <strong>
-        Java, Spring Boot, Gradle, Prometheus, Artifactory, Jenkins, Electric Flow, the Command Line, Visual Studio, and Git.
+       Java, Spring Boot, Gradle, Prometheus, Artifactory, Jenkins, Electric Flow, the Command Line, Visual Studio, and Git.
       </strong>
       .
     </p>
