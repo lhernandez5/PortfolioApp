@@ -1,6 +1,5 @@
 # Portfolio
-##  https://obscure-everglades-64350.herokuapp.com/
-<br>
+## https://obscure-everglades-64350.herokuapp.com/
 Flip the project cards by hovering over them for a project description and link.
 <br>
 <br>
