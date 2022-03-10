@@ -22,9 +22,6 @@ const Intro = () => (
       I have had the opportunity to work with both front and back end technologies in various positions ranging from internships to my present position at TIAA.
     </p>
     <br />
-    <p className="intro">
-        Below are examples of projects.
-    </p>
   </div>
 );
 
