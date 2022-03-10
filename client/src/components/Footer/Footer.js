@@ -6,7 +6,7 @@ const Footer = () => (
 <footer className="footer">
   <div className="content has-text-centered">
     <p className="copyright">
-    © Copyright 2018 Luz Hernandez
+    © Copyright 2022 Luz Hernandez
     </p>
   </div>
 </footer>
