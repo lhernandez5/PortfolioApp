@@ -17,11 +17,6 @@ const Intro = () => (
       I currently work at TIAA as a developer on the Business Rule Management System Development team that is responsible for the decision logic layer of web and mobile apps.
     </p>
     <br />
-    <p className="intro">
-      It took one biology degree, one semester of Bioinformatics in grad school, and one coding boot camp to kick off my career in tech.
-      I have had the opportunity to work with both front and back end technologies in various positions ranging from internships to my present position at TIAA.
-    </p>
-    <br />
   </div>
 );
 
