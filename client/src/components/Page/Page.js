@@ -70,15 +70,15 @@ class Container extends Component {
           <Row>
             <Col size="4">
               <Card
-                title="Friend Finder"
-                src={
-                  process.env.PUBLIC_URL + "/images/friendFinder.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "This is a simple social app that allows you to see who you would match with for a potential friendship!"
-                }
-                aTag={"https://dry-citadel-88927.herokuapp.com/"}
+                 title="Giftastic"
+                 src={
+                   process.env.PUBLIC_URL + "/images/gifTastic.png" ||
+                   "https://placehold.it/300x300"
+                 }
+                 summary={
+                   "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
+                 }
+                 aTag={"https://lhernandez5.github.io/GifTastic/"}
               />
             </Col>
             <Col size="4">
@@ -105,21 +105,6 @@ class Container extends Component {
                   "This is an Amazon-like storefront app that takes in orders from customers and depletes stock from the store’s inventory. And the app will track product sales across the store’s departments and then provide a summary of the highest-grossing departments in the store. "
                 }
                 aTag={"https://lhernandez5.github.io/bamazon/"}
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col size="4">
-              <Card
-                title="Giftastic"
-                src={
-                  process.env.PUBLIC_URL + "/images/gifTastic.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
-                }
-                aTag={"https://lhernandez5.github.io/GifTastic/"}
               />
             </Col>
           </Row>
