@@ -83,15 +83,17 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                title="NPR Scraper"
-                src={
-                  process.env.PUBLIC_URL + "/images/nprscraper.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={"This scraper gets the headlines from NPR news."}
-                aTag={"https://peaceful-sea-57147.herokuapp.com/"}
+                 title="Crystals Collector"
+                 src={
+                   process.env.PUBLIC_URL + "/images/crystals.png" ||
+                   "https://placehold.it/300x300"
+                 }
+                 summary={
+                   "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
+                 }
+                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
-            </Col>
+             </Col>
             <Col size="4">
               <Card
                 title="Bamazon"
@@ -120,20 +122,6 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/GifTastic/"}
               />
             </Col>
-            <Col size="4">
-              <Card
-                title="Crystals Collector"
-                src={
-                  process.env.PUBLIC_URL + "/images/crystals.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
-                }
-                aTag={"https://lhernandez5.github.io/crystals_collector/"}
-              />
-            </Col>
-
           </Row>
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
