@@ -121,7 +121,7 @@ class Container extends Component {
                   "https://placehold.it/300x300"
                 }
                 formtarget="_blank"
-              />
+              >
             </Col>
             <Col size="4">
               <Button
@@ -133,7 +133,7 @@ class Container extends Component {
                   "https://placehold.it/300x300"
                 }
                 formtarget="_blank"
-              />
+              >
             </Col>
             <Col size="4">
               <Button
@@ -143,7 +143,7 @@ class Container extends Component {
                   "https://placehold.it/300x300"
                 }
                 formtarget="_blank"
-              />
+              >
             </Col>
           </Row>
         </Wrapper>
