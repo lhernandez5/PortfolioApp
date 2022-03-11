@@ -120,7 +120,6 @@ class Container extends Component {
                   process.env.PUBLIC_URL + "/images/github.svg" ||
                   "https://placehold.it/300x300"
                 }
-
               />
             </Col>
             <Col size="4">
@@ -132,7 +131,6 @@ class Container extends Component {
                   process.env.PUBLIC_URL + "/images/resume2.svg" ||
                   "https://placehold.it/300x300"
                 }
-
               />
             </Col>
             <Col size="4">
@@ -142,7 +140,6 @@ class Container extends Component {
                   process.env.PUBLIC_URL + "/images/linkedin.svg" ||
                   "https://placehold.it/300x300"
                 }
-
               />
             </Col>
           </Row>
