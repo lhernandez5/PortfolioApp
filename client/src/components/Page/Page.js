@@ -14,7 +14,9 @@ class Container extends Component {
     return (
       <div>
         <TopHero />
+        {/* <BodyHeader header={"About Me"} /> */}
         <Wrapper>
+          <Header>About Me</Header>
           <Row>
             <Col size="12">
               <Intro />
