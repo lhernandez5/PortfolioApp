@@ -13,7 +13,6 @@ const Intro = () => (
     alt="Luz Hernandez"
   />
     <p className="intro">
-      I'm a Software Developer at TIAA.
       I currently work at TIAA as a developer on the Business Rule Management System Development team that is responsible for the decision logic layer of web and mobile apps.
     </p>
     <br />
