@@ -17,7 +17,7 @@ const Intro = () => (
       rules. This system exists as middleware to provide consumers like the call center and web with a business decision
       based on business rules with the use of REST APIs. My responsibilities for this effort have ranged from tracking
       progress of the agile projects in Jira, to the development of the business rules using Java, Gradle, the
-      Springboot framework, to the deployment using git, jenkins, Artifactory, and electric flow.
+      Springboot Framework, to the deployment using Git, Jenkins, Artifactory, and Electric Flow.
     </p>
     <br />
   </div>
