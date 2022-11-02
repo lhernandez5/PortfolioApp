@@ -1,10 +1,9 @@
 .title {
   font-family: "Quicksand", sans-serif;
   font-size: 50px;
+  margin: 0px 0px 10px!important;
   color: black !important;
-  /* margin: 0% 5% 0% 10%; */
   text-align: center;
-  /*padding-top: 2%;*/
 }
 .hero.is-primary.is-medium {
   background: url("./luzhernandez.jpg");
@@ -17,7 +16,7 @@
 }
 .subtitle {
   color: black !important;
-  /*margin: 10% 10% 5% 10%;*/
+  font-family: "Quicksand", sans-serif;
   padding-top: 2%;
   text-align: center;
 }
