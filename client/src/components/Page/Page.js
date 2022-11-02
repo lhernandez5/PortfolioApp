@@ -66,17 +66,15 @@ class Container extends Component {
                 aTag={"https://lhernandez5.github.io/Clicky_Game/"}
               />
             </Col>
-          </Row>
-          <Row>
             <Col size="4">
               <Card
                  title="Giftastic"
                  src={
-                   process.env.PUBLIC_URL + "/images/gifTastic.png" ||
-                   "https://placehold.it/300x300"
+                    process.env.PUBLIC_URL + "/images/gifTastic.png" ||
+                    "https://placehold.it/300x300"
                  }
                  summary={
-                   "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
+                    "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
                  }
                  aTag={"https://lhernandez5.github.io/GifTastic/"}
               />
@@ -85,11 +83,11 @@ class Container extends Component {
               <Card
                  title="Crystals Collector"
                  src={
-                   process.env.PUBLIC_URL + "/images/crystals.png" ||
-                   "https://placehold.it/300x300"
+                    process.env.PUBLIC_URL + "/images/crystals.png" ||
+                    "https://placehold.it/300x300"
                  }
                  summary={
-                   "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
+                     "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
                  }
                  aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
