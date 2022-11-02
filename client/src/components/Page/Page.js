@@ -94,19 +94,6 @@ class Container extends Component {
                  aTag={"https://lhernandez5.github.io/crystals_collector/"}
               />
              </Col>
-            <Col size="4">
-              <Card
-                title="Bamazon"
-                src={
-                  process.env.PUBLIC_URL + "/images/bamazon.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "This is an Amazon-like storefront app that takes in orders from customers and depletes stock from the store’s inventory. And the app will track product sales across the store’s departments and then provide a summary of the highest-grossing departments in the store. "
-                }
-                aTag={"https://lhernandez5.github.io/bamazon/"}
-              />
-            </Col>
           </Row>
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
