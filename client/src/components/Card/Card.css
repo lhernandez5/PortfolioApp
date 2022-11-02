@@ -2,7 +2,7 @@
   background-color: rgb(223, 204, 41);
   /* margin: 0% 2% 0% 2%; */
   box-shadow: 5px 5px gray;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   border-radius: 10px;
 }
 .card-title {
