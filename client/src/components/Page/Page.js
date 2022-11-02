@@ -53,19 +53,19 @@ class Container extends Component {
                 aTag={"https://fathomless-garden-19281.herokuapp.com/"}
               />
             </Col>
-//            <Col size="4">
-//              <Card
-//                title="Clicky Game"
-//                src={
-//                  process.env.PUBLIC_URL + "/images/clicky_game.png" ||
-//                  "https://placehold.it/300x300"
-//                }
-//                summary={
-//                  "The clicky game requires you click on a Hunter X Hunter character once for a point."
-//                }
-//                aTag={"https://lhernandez5.github.io/Clicky_Game/"}
-//              />
-//            </Col>
+            <Col size="4">
+              <Card
+                title="Clicky Game"
+                src={
+                  process.env.PUBLIC_URL + "/images/clicky_game.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "The clicky game requires you click on a Hunter X Hunter character once for a point."
+                }
+                aTag={"https://lhernandez5.github.io/Clicky_Game/"}
+              />
+            </Col>
           </Row>
           <Row>
             <Col size="4">
