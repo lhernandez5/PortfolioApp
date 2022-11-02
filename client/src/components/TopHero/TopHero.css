@@ -22,7 +22,7 @@
   text-align: center;
 }
 .hero-body {
-  padding-bottom: 0% !important;
+  /*padding-bottom: 0% !important;*/
 }
 .hero.container {
   background-color: rgb(233, 214, 107);
