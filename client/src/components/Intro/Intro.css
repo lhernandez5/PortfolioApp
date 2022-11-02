@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1024px) {
   .picture {
-    padding: 2%;
+    /*padding: 2%;*/
     margin: 2% 5% 2% 5% !important;
   }
 }
