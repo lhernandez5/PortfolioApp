@@ -53,7 +53,7 @@ class Container extends Component {
                 aTag={"https://fathomless-garden-19281.herokuapp.com/"}
               />
             </Col>
-            <Col size="4">
+            /*<Col size="4">
               <Card
                 title="Clicky Game"
                 src={
@@ -65,7 +65,7 @@ class Container extends Component {
                 }
                 aTag={"https://lhernandez5.github.io/Clicky_Game/"}
               />
-            </Col>
+            </Col>*/
           </Row>
           <Row>
             <Col size="4">
