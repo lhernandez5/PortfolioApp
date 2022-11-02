@@ -25,7 +25,7 @@ class Container extends Component {
         </Wrapper>
         {/* <BodyHeader header={"My Works"} /> */}
         <Wrapper>
-          <Header>Projects</Header>
+          <Header>Works</Header>
           <Row>
             <Col size="4">
               <Card
