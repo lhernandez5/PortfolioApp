@@ -7,7 +7,7 @@ const app = express();
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-// Serve up static assets (usually on heroku)
+// Serve up static assets (currently on render)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
