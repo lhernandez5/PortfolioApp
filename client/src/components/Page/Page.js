@@ -29,32 +29,6 @@ class Container extends Component {
           <Row>
             <Col size="4">
               <Card
-                title="Get It Together Financial Planner"
-                src={
-                  process.env.PUBLIC_URL + "/images/financialPlanner.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "This application allows to organize your spending and bills."
-                }
-                aTag={"https://stormy-everglades-57851.herokuapp.com/"}
-              />
-            </Col>
-            <Col size="4">
-              <Card
-                title="Snippets"
-                src={
-                  process.env.PUBLIC_URL + "/images/snippets.png" ||
-                  "https://placehold.it/300x300"
-                }
-                summary={
-                  "Snippets is an application that allows users that are programmers to post snippets that they want to share."
-                }
-                aTag={"https://fathomless-garden-19281.herokuapp.com/"}
-              />
-            </Col>
-            <Col size="4">
-              <Card
                 title="Clicky Game"
                 src={
                   process.env.PUBLIC_URL + "/images/clicky_game.png" ||
