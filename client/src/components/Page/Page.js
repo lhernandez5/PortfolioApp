@@ -61,9 +61,24 @@ class Container extends Component {
                     "https://placehold.it/300x300"
                  }
                  summary={
-                     "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
+                     "A game that rtequires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
                  }
                  aTag={"https://lhernandez5.github.io/crystals_collector/"}
+              />
+             </Col>
+          </Row>
+          <Row>
+             <Col size="4">
+              <Card
+                 title="React Todo App"
+                 src={
+                    process.env.PUBLIC_URL + "/images/todoapp.png" ||
+                    "https://placehold.it/300x300"
+                 }
+                 summary={
+                     "A todo list application that allows you to add todos and delete them from your list."
+                 }
+                 aTag={"https://reacttodolist-qyqz.onrender.com/"}
               />
              </Col>
           </Row>
