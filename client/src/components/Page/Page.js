@@ -94,6 +94,19 @@ class Container extends Component {
                  aTag={"https://tictactoe-3stk.onrender.com/"}
               />
              </Col>
+             <Col size="4">
+              <Card
+                 title="Rock Paper Scissors"
+                 src={
+                    process.env.PUBLIC_URL + "/images/rockPaperScissors.png" ||
+                    "https://placehold.it/300x300"
+                 }
+                 summary={
+                     "This is an app where you can play a rock paper scissors game."
+                 }
+                 aTag={"https://rockpaperscissors-h282.onrender.com/"}
+              />
+             </Col>
           </Row>
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
