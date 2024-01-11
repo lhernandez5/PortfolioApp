@@ -6,7 +6,6 @@ import { Col, Row, Wrapper } from "../Grid/index.js";
 import Footer from "../Footer/index.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
-// import BodyHeader from "../BodyHero/BodyHero.js";
 import "./Page.css";
 
 class Container extends Component {
