@@ -70,7 +70,7 @@ class Container extends Component {
           <Row>
              <Col size="4">
               <Card
-                 title="React Todo App"
+                 title="Todo App"
                  src={
                     process.env.PUBLIC_URL + "/images/todoapp.png" ||
                     "https://placehold.it/300x300"
