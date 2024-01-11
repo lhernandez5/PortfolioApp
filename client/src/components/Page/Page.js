@@ -6,7 +6,6 @@ import { Col, Row, Wrapper } from "../Grid/index.js";
 import Footer from "../Footer/index.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
-// import BodyHeader from "../BodyHero/BodyHero.js";
 import "./Page.css";
 
 class Container extends Component {
@@ -61,9 +60,50 @@ class Container extends Component {
                     "https://placehold.it/300x300"
                  }
                  summary={
-                     "A game that requires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
+                     "A game that rtequires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
                  }
                  aTag={"https://lhernandez5.github.io/crystals_collector/"}
+              />
+             </Col>
+          </Row>
+          <Row>
+             <Col size="4">
+              <Card
+                 title="Todo App"
+                 src={
+                    process.env.PUBLIC_URL + "/images/todoapp.png" ||
+                    "https://placehold.it/300x300"
+                 }
+                 summary={
+                     "A todo list application that allows you to add todos and delete them from your list."
+                 }
+                 aTag={"https://reacttodolist-qyqz.onrender.com/"}
+              />
+             </Col>
+             <Col size="4">
+              <Card
+                 title="Tic Tac Toe"
+                 src={
+                    process.env.PUBLIC_URL + "/images/tictactoe.png" ||
+                    "https://placehold.it/300x300"
+                 }
+                 summary={
+                     "This is an app where you can play a quick TicTacToe game."
+                 }
+                 aTag={"https://tictactoe-3stk.onrender.com/"}
+              />
+             </Col>
+             <Col size="4">
+              <Card
+                 title="Rock Paper Scissors"
+                 src={
+                    process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
+                    "https://placehold.it/300x300"
+                 }
+                 summary={
+                     "This is an app where you can play a rock paper scissors game."
+                 }
+                 aTag={"https://rockpaperscissors-h282.onrender.com/"}
               />
              </Col>
           </Row>
