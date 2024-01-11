@@ -98,7 +98,7 @@ class Container extends Component {
               <Card
                  title="Rock Paper Scissors"
                  src={
-                    process.env.PUBLIC_URL + "/images/rockPaperScissors.png" ||
+                    process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
                     "https://placehold.it/300x300"
                  }
                  summary={
