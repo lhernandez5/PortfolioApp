@@ -5,8 +5,9 @@
   color: black !important;
   text-align: center;
 }
+
 .hero.is-primary.is-medium {
-  background: url("./luzhernandez.jpg");
+  background: url("../../../public/images/background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -14,14 +15,14 @@
   box-shadow: 5px 5px gray;
   max-height: 800px;
 }
+
 .subtitle {
   color: black !important;
   font-family: "Quicksand", sans-serif;
   padding-top: 2%;
   text-align: center;
 }
-.hero-body {
-}
+
 .hero.container {
   background-color: rgb(233, 214, 107);
   margin-bottom: 10%;
@@ -31,7 +32,7 @@
 
 @media screen and (max-width: 640px) {
   .hero.is-primary.is-medium {
-    background: url("./luzhernandez.jpg");
+    background: url("../../../public/images/background.jpg");
     background-position: center;
   }
 }
