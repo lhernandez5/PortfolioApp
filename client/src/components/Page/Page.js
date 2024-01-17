@@ -54,15 +54,15 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                 title="Crystals Collector"
+                 title="Rock Paper Scissors"
                  src={
-                    process.env.PUBLIC_URL + "/images/crystals.png" ||
+                    process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
                     "https://placehold.it/300x300"
                  }
                  summary={
-                     "A game that rtequires you to do a little math in order to match the random number. You match your total by clicking on the crystals of different values."
+                     "This is an app where you can play a rock paper scissors game."
                  }
-                 aTag={"https://lhernandez5.github.io/crystals_collector/"}
+                 aTag={"https://rockpaperscissors-h282.onrender.com/"}
               />
              </Col>
           </Row>
@@ -91,19 +91,6 @@ class Container extends Component {
                      "This is an app where you can play a quick TicTacToe game."
                  }
                  aTag={"https://tictactoe-3stk.onrender.com/"}
-              />
-             </Col>
-             <Col size="4">
-              <Card
-                 title="Rock Paper Scissors"
-                 src={
-                    process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
-                    "https://placehold.it/300x300"
-                 }
-                 summary={
-                     "This is an app where you can play a rock paper scissors game."
-                 }
-                 aTag={"https://rockpaperscissors-h282.onrender.com/"}
               />
              </Col>
           </Row>
