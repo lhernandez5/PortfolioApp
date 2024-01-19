@@ -28,15 +28,15 @@ class Container extends Component {
           <Row>
             <Col size="4">
               <Card
-                title="Clicky Game"
+                title="Weather App"
                 src={
-                  process.env.PUBLIC_URL + "/images/clicky_game.png" ||
+                  process.env.PUBLIC_URL + "/images/weatherApp.png" ||
                   "https://placehold.it/300x300"
                 }
                 summary={
-                  "The clicky game requires you click on a Hunter X Hunter character once for a point."
+                  "In this weather app you can type in a city and get the day's weather and the forecast for the current week."
                 }
-                aTag={"https://lhernandez5.github.io/Clicky_Game/"}
+                aTag={"https://weather-app-qwaa.onrender.com/"}
               />
             </Col>
             <Col size="4">
