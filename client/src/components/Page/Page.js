@@ -36,7 +36,7 @@ class Container extends Component {
                 summary={
                   "In this weather app you can type in a city and get the day's weather and the forecast for the current week."
                 }
-                aTag={"https://weather-app-qwaa.onrender.com/"}
+                aTag={"https://weather-app-qoiw.onrender.com/"}
               />
             </Col>
             <Col size="4">
