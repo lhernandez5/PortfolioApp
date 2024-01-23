@@ -7,7 +7,6 @@ import Footer from "../Footer/index.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
 
-
 class Container extends Component {
   render() {
     return (
@@ -41,58 +40,71 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                 title="Giftastic"
-                 src={
-                    process.env.PUBLIC_URL + "/images/gifTastic.png" ||
-                    "https://placehold.it/300x300"
-                 }
-                 summary={
-                    "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
-                 }
-                 aTag={"https://lhernandez5.github.io/GifTastic/"}
+                title="Giftastic"
+                src={
+                  process.env.PUBLIC_URL + "/images/gifTastic.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
+                }
+                aTag={"https://lhernandez5.github.io/GifTastic/"}
               />
             </Col>
             <Col size="4">
               <Card
-                 title="Rock Paper Scissors"
-                 src={
-                    process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
-                    "https://placehold.it/300x300"
-                 }
-                 summary={
-                     "This is an app where you can play a rock paper scissors game."
-                 }
-                 aTag={"https://rockpaperscissors-h282.onrender.com/"}
+                title="Rock Paper Scissors"
+                src={
+                  process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "This is an app where you can play a rock paper scissors game."
+                }
+                aTag={"https://rockpaperscissors-h282.onrender.com/"}
               />
-             </Col>
+            </Col>
           </Row>
           <Row>
-             <Col size="4">
+            <Col size="4">
               <Card
-                 title="Todo App"
-                 src={
-                    process.env.PUBLIC_URL + "/images/todoapp.png" ||
-                    "https://placehold.it/300x300"
-                 }
-                 summary={
-                     "A todo list application that allows you to add todos and delete them from your list."
-                 }
-                 aTag={"https://reacttodolist-qyqz.onrender.com/"}
+                title="Todo App"
+                src={
+                  process.env.PUBLIC_URL + "/images/todoapp.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "A todo list application that allows you to add todos and delete them from your list."
+                }
+                aTag={"https://reacttodolist-qyqz.onrender.com/"}
               />
-             </Col>
-             <Col size="4">
+            </Col>
+            <Col size="4">
               <Card
-                 title="Tic Tac Toe"
-                 src={
-                    process.env.PUBLIC_URL + "/images/tictactoe.png" ||
-                    "https://placehold.it/300x300"
-                 }
-                 summary={
-                     "This is an app where you can play a quick TicTacToe game."
-                 }
-                 aTag={"https://tictactoe-3stk.onrender.com/"}
+                title="Tic Tac Toe"
+                src={
+                  process.env.PUBLIC_URL + "/images/tictactoe.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "This is an app where you can play a quick TicTacToe game."
+                }
+                aTag={"https://tictactoe-3stk.onrender.com/"}
               />
-             </Col>
+            </Col>
+            <Col size="4">
+              <Card
+                title="Build Your Own Trivia Quiz"
+                src={
+                  process.env.PUBLIC_URL + "/images/triviaQuiz.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "This app allows you to build a trivia quiz based on the selections you make."
+                }
+                aTag={"https://quiz-app-rhnn.onrender.com/"}
+              />
+            </Col>
           </Row>
         </Wrapper>
         {/* <BodyHeader header={"Links"} /> */}
