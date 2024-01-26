@@ -2,13 +2,13 @@
   margin: 10% 25% 30% 25%;
   height: auto;
   width: auto;
-  max-width:50%
+  max-width: 50%;
 }
 @media screen and (max-width: 375px) {
   .iconButton {
     margin: 20% 0% 30% 30%;
     height: 75px;
-    max-width:100%
+    max-width: 100%;
   }
 }
 
@@ -16,6 +16,6 @@
   .iconButton {
     margin: 20% 0% 30% 30%;
     height: 80px;
-    max-width:100%
+    max-width: 100%;
   }
 }

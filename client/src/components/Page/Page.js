@@ -12,7 +12,6 @@ class Container extends Component {
     return (
       <div>
         <TopHero />
-        {/* <BodyHeader header={"About Me"} /> */}
         <Wrapper>
           <Header>About Me</Header>
           <Row>
@@ -21,7 +20,6 @@ class Container extends Component {
             </Col>
           </Row>
         </Wrapper>
-        {/* <BodyHeader header={"My Works"} /> */}
         <Wrapper>
           <Header>Works</Header>
           <Row>
