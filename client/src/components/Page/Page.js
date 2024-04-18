@@ -103,9 +103,21 @@ class Container extends Component {
                 aTag={"https://quiz-app-rhnn.onrender.com/"}
               />
             </Col>
+            <Col size="4">
+              <Card
+                title="Calculator"
+                src={
+                  process.env.PUBLIC_URL + "/images/calculator.png" ||
+                  "https://placehold.it/300x300"
+                }
+                summary={
+                  "This is a calculator app."
+                }
+                aTag={"https://calculatorapp-sf8u.onrender.com/"}
+              />
+            </Col>
           </Row>
         </Wrapper>
-        {/* <BodyHeader header={"Links"} /> */}
         <Wrapper>
           <Header>Github? Resume? LinkedIn?</Header>
           <Row>
