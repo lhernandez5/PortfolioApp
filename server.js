@@ -7,12 +7,11 @@ const app = express();
 // Define middleware here
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
 // Serve up static assets (currently on render)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
-
-// Define API routes here
 
 // Send every other request to the React app
 // Define any API routes before this runs

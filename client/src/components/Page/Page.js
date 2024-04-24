@@ -110,9 +110,7 @@ class Container extends Component {
                   process.env.PUBLIC_URL + "/images/calculator.png" ||
                   "https://placehold.it/300x300"
                 }
-                summary={
-                  "This is a calculator app."
-                }
+                summary={"This is a calculator app."}
                 aTag={"https://calculatorapp-sf8u.onrender.com/"}
               />
             </Col>

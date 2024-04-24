@@ -5,7 +5,6 @@ import Icon from "../Icon/Icon.js";
 const Card = (props) => (
   <div
     className="flip-container"
-    // ontouchstart="this.classList.toggle('hover');"
   >
     <div className="flipper">
       <div className="front">

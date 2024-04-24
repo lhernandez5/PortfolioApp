@@ -15,8 +15,7 @@ const Intro = () => (
       I'm a software developer that has worked on the
       execution, deployment, and maintenance of business rules. My responsibilities
       ranged from tracking the development of the business rules to the
-      deployment of changes. I used tools such as Java, Gradle, the SpringBoot
-      Framework.
+      deployment of changes.
     </p>
     <br />
   </div>

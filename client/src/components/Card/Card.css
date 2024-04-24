@@ -1,6 +1,5 @@
 .card {
   background-color: rgb(223, 204, 41);
-  /* margin: 0% 2% 0% 2%; */
   box-shadow: 5px 5px gray;
   border: 2px solid black;
   border-radius: 10px;
@@ -36,7 +35,6 @@
 .flipper {
   transition: 0.6s;
   transform-style: preserve-3d;
-
   position: relative;
 }
 
@@ -44,7 +42,6 @@
 .front,
 .back {
   backface-visibility: hidden;
-
   position: absolute;
   top: 0;
   left: 0;
@@ -61,7 +58,7 @@
 .back {
   transform: rotateY(180deg);
 }
-/* ////////// */
+
 .vertical.flip-container {
   position: relative;
 }
@@ -77,18 +74,3 @@
 .vertical.flip-container:hover .front {
   transform: rotateX(180deg);
 }
-
-/* @media screen and (max-width: 640px) {
-  .card {
-    margin: 20% 0% 40% 0%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    margin: 0% 10% 2% 2%;
-  }
-  .cardAndFlipper {
-    margin-left: 20%;
-  }
-} */
