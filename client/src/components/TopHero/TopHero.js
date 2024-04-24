@@ -8,7 +8,7 @@ const TopHero = () => (
         <h1 className="title"> Hi, I'm</h1>
         <h1 className="title"> Luz Hernandez.</h1>
         <h2 className="subtitle">
-          I'm a software developer based in Charlotte, NC.
+          A software developer based in Charlotte, NC.
         </h2>
       </div>
     </div>
