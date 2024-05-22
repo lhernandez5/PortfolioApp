@@ -33,12 +33,12 @@ class Container extends Component {
                 summary={
                   "In this weather app you can type in a city and get the day's weather and the forecast for the current week."
                 }
-                aTag={"https://weather-app-qoiw.onrender.com/"}
+                aTag={"https://weatherapp-afom.onrender.com/"}
               />
             </Col>
             <Col size="4">
               <Card
-                title="Giftastic"
+                title="Giftastic App"
                 src={
                   process.env.PUBLIC_URL + "/images/gifTastic.png" ||
                   "https://placehold.it/300x300"
@@ -51,7 +51,7 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                title="Rock Paper Scissors"
+                title="Rock Paper Scissors App"
                 src={
                   process.env.PUBLIC_URL + "/images/paperRockScissors.png" ||
                   "https://placehold.it/300x300"
@@ -79,7 +79,7 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                title="Tic Tac Toe"
+                title="Tic Tac Toe App"
                 src={
                   process.env.PUBLIC_URL + "/images/tictactoe.png" ||
                   "https://placehold.it/300x300"
@@ -105,7 +105,7 @@ class Container extends Component {
             </Col>
             <Col size="4">
               <Card
-                title="Calculator"
+                title="Calculator App"
                 src={
                   process.env.PUBLIC_URL + "/images/calculator.png" ||
                   "https://placehold.it/300x300"
