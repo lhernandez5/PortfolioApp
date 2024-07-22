@@ -1,11 +1,11 @@
 import React from "react";
 import "./BodyHero.css";
 
-const BodyHero = (props) => (
+const BodyHero = ({header}) => (
   <section class="hero">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">{props.header}</h1>
+        <h1 class="title">{header}</h1>
       </div>
     </div>
   </section>
