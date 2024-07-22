@@ -1,13 +1,13 @@
 import React from "react";
 import "./Icon.css";
 
-const Icon = (props) => (
+const Icon = ({src}) => (
   <div
     className="thumbnail"
     role="img"
     aria-label="Image"
     style={{
-      backgroundImage: `url(${props.src})`,
+      backgroundImage: `url(${src})`,
     }}
   ></div>
 );
