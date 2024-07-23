@@ -3,11 +3,11 @@ import Intro from "../Intro/Intro.js";
 import TopHero from "../TopHero/TopHero.js";
 import Card from "../Card/Card.js";
 import { Col, Row, Wrapper } from "../Grid/index.js";
-import Footer from "../Footer/index.js";
+import Footer from "../Footer/Footer.js";
 import Header from "../Header/Header.js";
 import Button from "../Button/Button.js";
 
-function Container() {
+const Page = () => {
   return (
     <div>
       <TopHero />
@@ -152,6 +152,6 @@ function Container() {
       <Footer />
     </div>
   );
-}
+};
 
-export default Container;
+export default Page;
