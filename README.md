@@ -3,9 +3,9 @@
 This portfolio contains apps that I have created.
 
 Tools used:
--React Library
--Node.js
--Bootstrap
+- React Library
+- Node.js
+- Bootstrap
 
 
 Flip the project cards by hovering over them for a project description and link.
