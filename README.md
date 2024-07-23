@@ -5,4 +5,5 @@ CSS framework used: Bootstrap
 Flip the project cards by hovering over them for a project description and link.
 
 
-<img width="1454" alt="screen shot 2018-09-07 at 1 56 38 pm" src="https://user-images.githubusercontent.com/22462010/45235145-f421bd80-b2a5-11e8-81e7-b1f076b0469b.png">
+
+<img width="1165" alt="Screenshot 2024-07-23 at 8 56 09 AM" src="https://github.com/user-attachments/assets/001c3bad-3c23-4a3f-ae96-42fb72c29885">
