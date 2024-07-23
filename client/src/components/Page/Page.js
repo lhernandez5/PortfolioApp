@@ -65,19 +65,6 @@ const Page = () => {
         <Row>
           <Col size="4">
             <Card
-              title="Todo App"
-              src={
-                process.env.PUBLIC_URL + "/images/todoapp.png" ||
-                "https://placehold.it/300x300"
-              }
-              summary={
-                "A todo list application that allows you to add todos and delete them from your list."
-              }
-              aTag={"https://reacttodolist-qyqz.onrender.com/"}
-            />
-          </Col>
-          <Col size="4">
-            <Card
               title="Tic Tac Toe App"
               src={
                 process.env.PUBLIC_URL + "/images/tictactoe.png" ||
