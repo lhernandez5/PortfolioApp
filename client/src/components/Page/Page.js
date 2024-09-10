@@ -50,13 +50,15 @@ const Page = () => {
           </Col>
           <Col size="4">
             <Card
-              title="Calculator App"
+              title="Build Your Own Trivia Quiz"
               src={
-                process.env.PUBLIC_URL + "/images/calculator.png" ||
+                process.env.PUBLIC_URL + "/images/triviaQuiz.png" ||
                 "https://placehold.it/300x300"
               }
-              summary={"This is a calculator app."}
-              aTag={"https://calculatorapp-sf8u.onrender.com/"}
+              summary={
+                "This app allows you to build a trivia quiz based on the selections you make."
+              }
+              aTag={"https://quiz-app-rhnn.onrender.com/"}
             />
           </Col>
         </Row>
@@ -72,19 +74,6 @@ const Page = () => {
                 "This is an app where you can play a quick TicTacToe game."
               }
               aTag={"https://tictactoe-3stk.onrender.com/"}
-            />
-          </Col>
-          <Col size="4">
-            <Card
-              title="Build Your Own Trivia Quiz"
-              src={
-                process.env.PUBLIC_URL + "/images/triviaQuiz.png" ||
-                "https://placehold.it/300x300"
-              }
-              summary={
-                "This app allows you to build a trivia quiz based on the selections you make."
-              }
-              aTag={"https://quiz-app-rhnn.onrender.com/"}
             />
           </Col>
         </Row>
