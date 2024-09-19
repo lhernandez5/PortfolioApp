@@ -37,15 +37,15 @@ const Page = () => {
           </Col>
           <Col size="4">
             <Card
-              title="Giftastic App"
+              title="Tic Tac Toe App"
               src={
-                process.env.PUBLIC_URL + "/images/gifTastic.png" ||
+                process.env.PUBLIC_URL + "/images/tictactoe.png" ||
                 "https://placehold.it/300x300"
               }
               summary={
-                "Like gifs? Well click to have fun clicking on buttons to see gifs and create some buttons of your own!"
+                "This is an app where you can play a quick TicTacToe game."
               }
-              aTag={"https://lhernandez5.github.io/GifTastic/"}
+              aTag={"https://tictactoe-3stk.onrender.com/"}
             />
           </Col>
           <Col size="4">
@@ -59,21 +59,6 @@ const Page = () => {
                 "This app allows you to build a trivia quiz based on the selections you make."
               }
               aTag={"https://quiz-app-rhnn.onrender.com/"}
-            />
-          </Col>
-        </Row>
-        <Row>
-          <Col size="4">
-            <Card
-              title="Tic Tac Toe App"
-              src={
-                process.env.PUBLIC_URL + "/images/tictactoe.png" ||
-                "https://placehold.it/300x300"
-              }
-              summary={
-                "This is an app where you can play a quick TicTacToe game."
-              }
-              aTag={"https://tictactoe-3stk.onrender.com/"}
             />
           </Col>
         </Row>
